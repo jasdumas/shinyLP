@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#' Add a Jumbotron to showcase key content\n#'\n#' @param header a object of class character, indicating header title\n#' @param content a object of class character, indicating text content\n#' @param button a object of class logical, to include a button or not\n#' @param ... optional parameters for including a button label if needed\n#'\n#' @return HTML code to be applied to the ui section of a Shiny app\n#' @seealso \\href{http://getbootstrap.com/components/#jumbotron}{Jumbotron}\n#' @importFrom shiny HTML\n#' @export\njumbotron <- function(header , content, button = TRUE,  ...){\n\n  buttonLabel = c(...)\n\n  if (button){\n    HTML(paste0(\"<div class='jumbotron'>\n                <h1> \", header, \"</h1>\n                <p>\", content ,\"</p>\",\n                \"<p><a class='btn btn-primary btn-lg' button id='tabBut'>\", buttonLabel, \"</a></p>\n                </div>\") )\n\n  } else {\n    HTML(paste0(\"<div class='jumbotron'>\n                <h1> \", header, \"</h1>\n                <p>\", content ,\"</p>\",\n                \"</div>\") )\n  }\n\n}\n",
+    "created" : 1472237097667.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4061334939",
+    "id" : "14400094",
+    "lastKnownWriteTime" : 1472242947,
+    "last_content_update" : 1472242947412,
+    "path" : "~/Desktop/R-directory/shinyLP/R/jumbotron.R",
+    "project_path" : "R/jumbotron.R",
+    "properties" : {
+        "chunk_rendered_width" : "650"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

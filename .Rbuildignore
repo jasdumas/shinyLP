@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^CONDUCT\.md$
+^cran-comments\.md$
+^README\.md$
+^example\.jpg$
