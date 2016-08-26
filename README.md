@@ -1,3 +1,5 @@
+![](https://travis-ci.org/jasdumas/shinyLP.svg?branch=master)
+
 # shinyLP
 
 ### Bootstrap Landing Home Pages for Shiny
@@ -17,6 +19,11 @@ This package is inspired by the [shinyBS package](https://github.com/ebailey78/s
     * [Wells](http://getbootstrap.com/components/#wells)
 
 ## Example
+
+* To run this example provided from the package:
+```r
+shinyLP::runExample()
+```
 
 ![](example.jpg)
 
