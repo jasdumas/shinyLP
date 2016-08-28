@@ -4,3 +4,4 @@
 ^cran-comments\.md$
 ^README\.md$
 ^example\.jpg$
+^\.travis\.yml$
