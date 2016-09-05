@@ -14,7 +14,8 @@ library(shinyLP)
 # Define UI for application
 shinyUI(
 
-  # http://stackoverflow.com/a/24764483
+  # Include a fliudPage above the navbar to incorporate a icon in the header
+  # Source: http://stackoverflow.com/a/24764483
   fluidPage(
     list(tags$head(HTML('<link rel="icon", href="logo.png",
                         type="image/png" />'))),
@@ -25,19 +26,22 @@ shinyUI(
     ),
 
     navbarPage(title=div(img(src="Rlogo.png"), "Application NavBar Title"),
-               inverse = F, # for diff color view
+               inverse = T, # for diff color view
                theme = "http://bootswatch.com/cosmo/bootstrap.css",
 
                tabPanel("Home Page 1", icon = icon("home"),
 
-                        jumbotron("Hi Shiny!", "Call attention to important application features or provide guidance", buttonLabel = "Click Me"),
+                        jumbotron("Hi Shiny!", "Call attention to important application features or provide guidance",
+                                  buttonLabel = "Click Me"),
                          fluidRow(
-                          column(6, panelDiv("primary", "Directions", "How to use the app")),
-                          column(6, panelDiv("success", "Application Maintainers", "Email Me: <a href='mailto:jasmine.dumas@gmail.com?Subject=Shiny%20Help' target='_top'>Jasmine Dumas</a>"))
+                          column(6, panel_div(class_type = "primary", panel_title = "Directions",
+                                              content = "How to use the app")),
+                          column(6, panel_div("success", "Application Maintainers",
+                                             "Email Me: <a href='mailto:jasmine.dumas@gmail.com?Subject=Shiny%20Help' target='_top'>Jasmine Dumas</a>"))
                         ),  # end of fluidRow
                         fluidRow(
-                          column(6, panelDiv("info", "App Status", "Include text with status, version and updates")),
-                          column(6, panelDiv("danger", "Security and License", "Copyright 2016")),
+                          column(6, panel_div("info", "App Status", "Include text with status, version and updates")),
+                          column(6, panel_div("danger", "Security and License", "Copyright 2016")),
 
                           #### FAVICON TAGS SECTION ####
                           tags$head(tags$link(rel="shortcut icon", href="favicon.ico")),
@@ -53,29 +57,23 @@ shinyUI(
                         )),
 
                tabPanel("Home Page 2", icon = icon("calendar"),
-                        h2("Dock Several Applications on a page"),
-                        HTML("<div class='row'>
-                               <div class='col-sm-6 col-md-4'>
-                               <div class='thumbnail'>
-                               <img src='Rlogo.png' alt='...'>
-                               <div class='caption'>
-                               <h3>Thumbnail label</h3>
-                               <p>...</p>
-                               <p><a href='http://getbootstrap.com/' class='btn btn-primary' role='button'>Launch Application</a> </p>
-                               </div>
-                               </div>
-                               </div>
-                               </div>"),
-                        HTML("<div class='row'>
-                               <div class='col-xs-6 col-md-3'>
-                               <a href='http://getbootstrap.com/' class='thumbnail'>
-                               <img src='Rlogo.png' alt='...'>
-                               </a>
-                               </div>
-                               ...
-                             </div>")
 
-                        ),
+                        jumbotron("Hello shinyLP!", "Dock Several Applications on a page",
+                                  button = FALSE),
+                        fluidRow(
+                          column(6, thumbnail_label(image = 'Rlogo.png', label = 'Application 1', content = 'here we go again',
+                                                    button_link = 'http://getbootstrap.com/', button_label = 'Click me'),
+                                 thumbnail_label(image = 'Rlogo.png', label = 'Application 2', content = 'here we go again',
+                                                 button_link = 'http://getbootstrap.com/', button_label = 'Launch Application'),
+                                 thumbnail_label(image = 'Rlogo.png', label = 'Application 3', content = 'here we go again',
+                                                 button_link = 'http://getbootstrap.com/', button_label = 'Go to App')),
+                          column(6, thumbnail_label(image = 'Rlogo.png', label = 'Application 4', content = 'here we go again',
+                                                    button_link = 'http://getbootstrap.com/', button_label = 'Enter App'),
+                                 thumbnail_label(image = 'Rlogo.png', label = 'Application 5', content = 'here we go again',
+                                                 button_link = 'http://getbootstrap.com/', button_label = 'To App'),
+                                 thumbnail_label(image = 'Rlogo.png', label = 'Application 6', content = 'here we go again',
+                                                 button_link = 'http://getbootstrap.com/', button_label = 'Launch Shiny App'))
+                        )),
 
                tabPanel("Home Page 3", icon = icon("bar-chart-o")),
                tabPanel("Home Page 4", icon = icon("table")),
@@ -84,7 +82,7 @@ shinyUI(
                         HTML("For lists of available icons, see <a href= 'http://fontawesome.io/icons/'>http://fontawesome.io/icons/</a>
                              and <a href= 'http://getbootstrap.com/components/#glyphicons'>http://getbootstrap.com/components/#glyphicons</a>."),
                         fluidRow(
-                          column(12, icon("home"), icon("calendar"), icon("bar-chart-o"))
+                          column(12, icon("refresh"), icon("list-alt"), icon("bar-chart-o"))
                         )
                         ))
 

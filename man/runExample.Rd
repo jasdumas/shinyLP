@@ -13,7 +13,4 @@ a shiny app lauched locally displaying example layouts using the
 \description{
 Run The Example Shiny App
 }
-\examples{
-runExample()
-}
 

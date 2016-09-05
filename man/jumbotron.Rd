@@ -16,7 +16,7 @@ jumbotron(header, content, button = TRUE, ...)
 \item{...}{optional parameters for including a button label if needed}
 }
 \value{
-HTML code to be applied to the ui section of a Shiny app
+a HTML object to be included in the ui section of a shiny app
 }
 \description{
 Add a Jumbotron to showcase key content

@@ -5,19 +5,19 @@
 #' @param button a object of class logical, to include a button or not
 #' @param ... optional parameters for including a button label if needed
 #'
-#' @return HTML code to be applied to the ui section of a Shiny app
+#' @return a HTML object to be included in the ui section of a shiny app
 #' @seealso \href{http://getbootstrap.com/components/#jumbotron}{Jumbotron}
 #' @importFrom shiny HTML
 #' @export
 jumbotron <- function(header , content, button = TRUE,  ...){
 
-  buttonLabel = c(...)
+  button_label = c(...)
 
   if (button){
     HTML(paste0("<div class='jumbotron'>
                 <h1> ", header, "</h1>
                 <p>", content ,"</p>",
-                "<p><a class='btn btn-primary btn-lg' button id='tabBut'>", buttonLabel, "</a></p>
+                "<p><a class='btn btn-primary btn-lg' button id='tabBut'>", button_label, "</a></p>
                 </div>") )
 
   } else {
