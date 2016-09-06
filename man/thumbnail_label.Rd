@@ -15,7 +15,7 @@ thumbnail_label(image, label, content, button_link, button_label)
 
 \item{button_link}{a object of class character}
 
-\item{button_abel}{a object of class character}
+\item{button_label}{a object of class character}
 }
 \value{
 a HTML object to be included in the ui section of a shiny app
