@@ -73,17 +73,6 @@ shinyUI(
                                                  button_link = 'http://getbootstrap.com/', button_label = 'To App'),
                                  thumbnail_label(image = 'Rlogo.png', label = 'Application 6', content = 'here we go again',
                                                  button_link = 'http://getbootstrap.com/', button_label = 'Launch Shiny App'))
-                        )),
-
-               tabPanel("Home Page 3", icon = icon("bar-chart-o")),
-               tabPanel("Home Page 4", icon = icon("table")),
-               tabPanel("Color Themes"),
-               tabPanel("Page Icons",
-                        HTML("For lists of available icons, see <a href= 'http://fontawesome.io/icons/'>http://fontawesome.io/icons/</a>
-                             and <a href= 'http://getbootstrap.com/components/#glyphicons'>http://getbootstrap.com/components/#glyphicons</a>."),
-                        fluidRow(
-                          column(12, icon("refresh"), icon("list-alt"), icon("bar-chart-o"))
-                        )
-                        ))
+                        )))
 
 )) # end of shiny

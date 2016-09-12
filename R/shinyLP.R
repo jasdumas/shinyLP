@@ -8,7 +8,8 @@
 #' its features and how the user can best use the tool.
 #' @section shinyLP functions:
 #'   The shinyLP functions include `jumbotron()`, `panel_div()`,
-#'   and `thumbnail_label()`.
+#'   and `thumbnail_label()`. Run the example shiny app with
+#'   shinyLP::runExample().
 #'
 #' @docType package
 #' @name shinyLP

@@ -2,6 +2,7 @@
 ~%2FDesktop%2FR-directory%2FshinyLP%2FDESCRIPTION="2D02D0A9"
 ~%2FDesktop%2FR-directory%2FshinyLP%2FLICENSE="1E599DAE"
 ~%2FDesktop%2FR-directory%2FshinyLP%2FNAMESPACE="AFD2066D"
+~%2FDesktop%2FR-directory%2FshinyLP%2FNEWS.md="2A19B373"
 ~%2FDesktop%2FR-directory%2FshinyLP%2FR%2Fhello.R="9E44BE2C"
 ~%2FDesktop%2FR-directory%2FshinyLP%2FR%2Fjumbotron.R="79B34E65"
 ~%2FDesktop%2FR-directory%2FshinyLP%2FR%2FpanelDiv.R="81CCB082"
@@ -14,4 +15,5 @@
 ~%2FDesktop%2FR-directory%2FshinyLP%2Finst%2Fshiny-examples%2FLPExample%2Fserver.R="D3720727"
 ~%2FDesktop%2FR-directory%2FshinyLP%2Finst%2Fshiny-examples%2FLPExample%2Fui.R="464864C1"
 ~%2FDesktop%2FR-directory%2FshinyLP%2Fman%2Fthumbnail_label.Rd="FF25F286"
+~%2FDesktop%2FR-directory%2FshinyLP%2Ftests%2Ftestthat.R="9FC5D7"
 ~%2FDesktop%2FR-directory%2Fttbbeer%2FR%2Fttbbeer.R="B661EA24"

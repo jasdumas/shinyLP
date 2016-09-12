@@ -5,8 +5,14 @@
 #' @param content a object of class character, indicating text content
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
-#' @seealso \href{http://getbootstrap.com/components/#panels-heading}{Bootstrap Panels}
 #' @importFrom shiny HTML
+#' @seealso \href{http://getbootstrap.com/components/#panels-heading}{Bootstrap Panels}
+#' @example
+#' \dontrun{
+#' library(shinyLP)
+#' panel_div(class_type = "primary", panel_title = "Directions", content = "How to use the app"))
+#' }
+#'
 #' @export
 panel_div <-function(class_type, panel_title, content) {
   HTML(paste0("<div class='panel panel-", class_type,

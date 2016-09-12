@@ -8,7 +8,7 @@ The goal of shinyLP is to provide R functions that wrap HTML Bootstrap code to e
 
 This package is inspired by the [shinyBS package](https://github.com/ebailey78/shinyBS) which incorporates useful components from the [Bootstrap web framework](http://getbootstrap.com/) for use in Shiny. shinyLP extends the Bootstrap components that are used in the Shiny package by making it easier by not having to write additional HTML code.
 
-## To-do prior to submitting to CRAN
+## Future package updates and ideas
 
 * more examples on demo shiny app
 * additional bootstrap components I'm interested in implementing:
@@ -31,7 +31,7 @@ shinyLP::runExample()
 
 ## How to install this package?
 
-To install the package type the following (not on CRAN yet 08-26-2016):
+To install the package type the following:
 
 ```r
 install.packages("shinyLP")
@@ -48,7 +48,7 @@ library(shinyLP)
 
 ## How to use this package?
 
-The components of the package are R functions that wrap HTML Bootstrap code for use in shiny apps. 
+The components of the package are R functions that wrap HTML Bootstrap code for use in shiny apps. Include the functions in the UI section of your app to provide additional features which normally requires including HTML code.
 
 This project is released with a [Contributor Code of Conduct](https://github.com/jasdumas/shinyLP/blob/master/CONDUCT.md). By participating in this project you agree to abide by its terms.
 
