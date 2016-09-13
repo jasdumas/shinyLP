@@ -21,7 +21,7 @@ This package is inspired by the [shinyBS package](https://github.com/ebailey78/s
 
 ## shinyLP Example
 
-This example features a informative layout calling attention to key features, directions package status, security or licensing, package maintainer contact.
+This example features a informative layout calling attention to key features, directions, package status, security or licensing, package maintainer contact.
 
 * To run this example provided from the package:
 ```r
