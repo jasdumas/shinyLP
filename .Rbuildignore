@@ -2,7 +2,6 @@
 ^\.Rproj\.user$
 ^CONDUCT\.md$
 ^cran-comments\.md$
-^README\.md$
 ^example\.jpg$
 ^\.travis\.yml$
-^NEWS\.md$
+
