@@ -13,4 +13,7 @@ a shiny app launched locally displaying example layouts using the
 \description{
 Run The Example Shiny App
 }
+\examples{
+\dontrun{ runExample() }
+}
 

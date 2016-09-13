@@ -2,7 +2,7 @@
 #'
 #' @return a shiny app launched locally displaying example layouts using the
 #'     shinyLP package functions and examples from the shinyBS package.
-#' @example runExample()
+#' @examples \dontrun{ runExample() }
 #' @export
 runExample <- function() {
   appDir <- system.file("shiny-examples", "LPExample", package = "shinyLP")

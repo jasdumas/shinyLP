@@ -9,13 +9,8 @@
 #' @return a HTML object to be included in the ui section of a shiny app
 #' @importFrom shiny HTML
 #' @seealso \href{http://getbootstrap.com/components/#thumbnails-custom-content}{Thumbnails}
-#' @example
-#' \dontrun{
-#' library(shinyLP)
-#' thumbnail_label(image = 'Rlogo.png', label = 'App 1', content = 'here we go again',
+#' @examples  thumbnail_label(image = 'Rlogo.png', label = 'App 1', content = 'here we go again',
 #'  button_link = 'http://getbootstrap.com/', button_label = 'Click me')
-#' }
-#'
 #' @export
 thumbnail_label <- function(image, label, content, button_link, button_label ){
   HTML(paste0("<div class='row'>

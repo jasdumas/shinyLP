@@ -21,6 +21,9 @@ a HTML object to be included in the ui section of a shiny app
 \description{
 Add a Jumbotron to showcase key content
 }
+\examples{
+ jumbotron("Hi Shiny!", "text to show", buttonLabel = "Click Me")
+}
 \seealso{
 \href{http://getbootstrap.com/components/#jumbotron}{Jumbotron}
 }

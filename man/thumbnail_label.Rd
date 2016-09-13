@@ -23,6 +23,10 @@ a HTML object to be included in the ui section of a shiny app
 \description{
 Add a custom thumbnail with a label and button
 }
+\examples{
+ thumbnail_label(image = 'Rlogo.png', label = 'App 1', content = 'here we go again',
+ button_link = 'http://getbootstrap.com/', button_label = 'Click me')
+}
 \seealso{
 \href{http://getbootstrap.com/components/#thumbnails-custom-content}{Thumbnails}
 }

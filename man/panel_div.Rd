@@ -19,6 +19,10 @@ a HTML object to be included in the ui section of a shiny app
 \description{
 Add Panel Sections with Color Headers
 }
+\examples{
+ panel_div(class_type = "primary", panel_title = "Directions",
+content = "How to use the app")
+}
 \seealso{
 \href{http://getbootstrap.com/components/#panels-heading}{Bootstrap Panels}
 }

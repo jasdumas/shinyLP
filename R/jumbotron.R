@@ -8,12 +8,7 @@
 #' @return a HTML object to be included in the ui section of a shiny app
 #' @importFrom shiny HTML
 #' @seealso \href{http://getbootstrap.com/components/#jumbotron}{Jumbotron}
-#' @example
-#' \dontrun{
-#' library(shinyLP)
-#' jumbotron("Hi Shiny!", "text to show", buttonLabel = "Click Me")
-#' }
-#'
+#' @examples  jumbotron("Hi Shiny!", "text to show", buttonLabel = "Click Me")
 #' @export
 jumbotron <- function(header , content, button = TRUE,  ...){
 
