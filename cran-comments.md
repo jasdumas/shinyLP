@@ -14,6 +14,7 @@ R CMD check succeeded
 Additional Comments:
 * shinyLP is not a misspelling but the package name
 * this is a first submission for the package
+* updated wording per reviewer suggestion
 
 
 ## Reverse dependencies

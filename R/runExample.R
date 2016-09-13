@@ -1,7 +1,8 @@
 #' Run The Example Shiny App
 #'
-#' @return a shiny app launched locally displaying example layouts using the
-#'     shinyLP package functions and examples from the shinyBS package.
+#' @return Nothing is returned except a shiny app launched locally displaying
+#'  example layouts using the shinyLP package functions and examples from the
+#'  shinyBS package.
 #' @examples \dontrun{ runExample() }
 #' @export
 runExample <- function() {

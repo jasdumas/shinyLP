@@ -7,8 +7,9 @@
 runExample()
 }
 \value{
-a shiny app launched locally displaying example layouts using the
-    shinyLP package functions and examples from the shinyBS package.
+Nothing is returned except a shiny app launched locally displaying
+ example layouts using the shinyLP package functions and examples from the
+ shinyBS package.
 }
 \description{
 Run The Example Shiny App

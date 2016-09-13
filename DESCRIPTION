@@ -1,14 +1,14 @@
 Package: shinyLP
 Type: Package
 Title: Bootstrap Landing Home Pages for Shiny Applications
-Version: 0.1.0
+Version: 1.0.0
 Author: Authors@R: person("Jasmine", "Dumas", email = "jasmine.dumas@gmail.com",
     role = c("aut", "cre"))
 Maintainer: Jasmine Dumas <jasmine.dumas@gmail.com>
-Description: This package provides R functions that wrap HTML Bootstrap
+Description: Provides functions that wrap HTML Bootstrap
     components code to enable the design and layout of informative landing home
-    pages for Shiny applications. This can lead to a better user experience for the
-    users and writing less HTML for the developer.
+    pages for Shiny applications. This can lead to a better user experience for
+    the users and writing less HTML for the developer.
 URL: https://github.com/jasdumas/shinyLP
 Depends:
     R (>= 3.1.2)

@@ -1,6 +1,6 @@
 #' A R package To Add Bootstrap Components to Shiny Applications
 #' for Landing Home Pages.
-#' @description This package provides additional Bootstrap web
+#' @description Provides additional Bootstrap web
 #' framework components to enahance the user expereince and interface
 #' for shiny applications. shinyLP makes it easier for R developers to include
 #' advanced HTML components without the need for writing HTML. Landing home
