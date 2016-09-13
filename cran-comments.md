@@ -9,10 +9,12 @@
 
 0 errors | 0 warnings | 0 note
 
+R CMD check succeeded
+
 Additional Comments:
 * shinyLP is not a misspelling but the package name
 * this is a first submission for the package
-* 
+
 
 ## Reverse dependencies
 
