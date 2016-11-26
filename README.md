@@ -1,6 +1,6 @@
 ![](https://travis-ci.org/jasdumas/shinyLP.svg?branch=master)
-[![](http://cranlogs.r-pkg.org/badges/shinyLP)](http://cran.rstudio.com/web/packages/shinyLP/index.html)
-[![](http://cranlogs.r-pkg.org/badges/grand-total/shinyLP)](http://cran.rstudio.com/web/packages/shinyLP/index.html)
+[![](http://cranlogs.r-pkg.org/badges/shinyLP)](https://cran.r-project.org/package=shinyLP)
+[![](http://cranlogs.r-pkg.org/badges/grand-total/shinyLP)](https://cran.r-project.org/package=shinyLP)
 
 # shinyLP
 

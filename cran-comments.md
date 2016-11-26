@@ -11,8 +11,17 @@
 
 R CMD check succeeded
 
-Additional Comments:
+### Additional Comments:
+
 * shinyLP is not a misspelling but the package name
+* win-builder (devel and release): **R CMD check has no ERRORs or WARNINGs, and 1 NOTE**: checking CRAN incoming feasibility ... NOTE
+Maintainer: 'Jasmine Dumas <jasmine.dumas@gmail.com>'
+
+License components with restrictions and base license permitting such:    
+  MIT + file LICENSE    
+File 'LICENSE':     
+  YEAR: 2016      
+  COPYRIGHT HOLDER: Jasmine Dumas     
 
 ## Reverse dependencies
 
