@@ -1,7 +1,7 @@
 Package: shinyLP
 Type: Package
 Title: Bootstrap Landing Home Pages for Shiny Applications
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: person("Jasmine", "Dumas", email = "jasmine.dumas@gmail.com", role = c("aut", "cre"))
 Maintainer: Jasmine Dumas <jasmine.dumas@gmail.com>
 Description: Provides functions that wrap HTML Bootstrap
@@ -13,7 +13,8 @@ Depends:
     R (>= 3.1.2)
 Imports:
     shinyBS,
-    shiny
+    shiny, 
+    shinythemes
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

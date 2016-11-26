@@ -7,6 +7,7 @@
 #' pages are meant to be a informative introduction to the application,
 #' its features and how the user can best use the tool.
 #' @section This package has functions for:
+#'   `iframe()`, `list_group()`, `list_item()`, `wells()`
 #'   `jumbotron()`, `panel_div()`, and `thumbnail_label()`.
 #'   Run the example shiny app with shinyLP::runExample().
 #'

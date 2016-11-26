@@ -15,9 +15,8 @@ This package is inspired by the [shinyBS package](https://github.com/ebailey78/s
 * more examples on demo shiny app
 * additional bootstrap components I'm interested in implementing:
     * [Media Objects](http://getbootstrap.com/components/#media-default)
-    * [List Group](http://getbootstrap.com/components/#list-group)
-    * [Badges](http://getbootstrap.com/components/#list-group-badges)
-    * [Wells](http://getbootstrap.com/components/#wells)
+    * [List Group](http://getbootstrap.com/components/#list-group) with [Badges](http://getbootstrap.com/components/#list-group-badges) - check out the latest release 1.1.0
+    * [Wells](http://getbootstrap.com/components/#wells) - check out the latest release 1.1.0
 
 ## shinyLP Example
 
@@ -28,7 +27,17 @@ This example features a informative layout calling attention to key features, di
 shinyLP::runExample()
 ```
 
-![](example.jpg)
+![](example1.jpg)
+
+![](example3.jpg)
+
+___
+
+![](example2.jpg)
+
+___
+
+![](example4.jpg)
 
 
 ## How to install this package?

@@ -1,5 +1,5 @@
 #' Add Panel Sections with Color Headers
-#'
+#' Panel sections can be grouped by color or context to structure the landing page.
 #' @param class_type a object of class character, indicating the contextual state class
 #' @param panel_title a object of class character, indicating the header title
 #' @param content a object of class character, indicating text content

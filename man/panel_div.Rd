@@ -2,7 +2,8 @@
 % Please edit documentation in R/panel_div.R
 \name{panel_div}
 \alias{panel_div}
-\title{Add Panel Sections with Color Headers}
+\title{Add Panel Sections with Color Headers
+Panel sections can be grouped by color or context to structure the landing page.}
 \usage{
 panel_div(class_type, panel_title, content)
 }
@@ -18,6 +19,7 @@ a HTML object to be included in the ui section of a shiny app
 }
 \description{
 Add Panel Sections with Color Headers
+Panel sections can be grouped by color or context to structure the landing page.
 }
 \examples{
  panel_div(class_type = "primary", panel_title = "Directions",

@@ -1,4 +1,3 @@
-#
 # This is the user-interface definition of a Shiny web application. You can
 # run the application by clicking 'Run App' above.
 #
@@ -17,6 +16,7 @@ shinyUI(
   # Include a fliudPage above the navbar to incorporate a icon in the header
   # Source: http://stackoverflow.com/a/24764483
   fluidPage(
+
     list(tags$head(HTML('<link rel="icon", href="logo.png",
                         type="image/png" />'))),
     div(style="padding: 1px 0px; width: '100%'",
@@ -26,12 +26,12 @@ shinyUI(
     ),
 
     navbarPage(title=div(img(src="Rlogo.png"), "Application NavBar Title"),
-               inverse = T, # for diff color view
-               theme = "http://bootswatch.com/cosmo/bootstrap.css",
+               inverse = F, # for diff color view
+               theme = shinytheme("united"),
 
                tabPanel("Home Page 1", icon = icon("home"),
 
-                        jumbotron("Hi Shiny!", "Call attention to important application features or provide guidance",
+                        jumbotron("Hi ShinyLP!", "Call attention to important application features or provide guidance",
                                   buttonLabel = "Click Me"),
                          fluidRow(
                           column(6, panel_div(class_type = "primary", panel_title = "Directions",
@@ -45,34 +45,58 @@ shinyUI(
 
                           #### FAVICON TAGS SECTION ####
                           tags$head(tags$link(rel="shortcut icon", href="favicon.ico")),
+
                           #### JAVASCRIPT TAGS SECTION #### - ENABLE WHEN READY
                           #tags$head(tags$script(src='pl.js')),
 
-
                           bsModal("modalExample", "Instructional Video", "tabBut", size = "large" ,
                                   p("Additional text and widgets can be added in these modal boxes. Video plays in chrome browser"),
-                                  HTML('<iframe width="560" height="315"  src="https://www.youtube.com/embed/0fKg7e37bQE" frameborder="0" allowfullscreen></iframe>')
-                          )
+                                  iframe(width = "560", height = "315", url_link = "https://www.youtube.com/embed/0fKg7e37bQE")
+                                  )
 
                         )),
+               tabPanel("Home Page 2", icon = icon("cog"),
+                        wells(content = "Imporant Info can go up here before a
+                              user starts exploring the application and its features",
+                              size = "default"),
+                        h1("Hello Visitors!", align = "center"),
+                        hr(),
 
-               tabPanel("Home Page 2", icon = icon("calendar"),
+                        list_group(c(list_item("Application Updates", badge_value = 27),
+                                     list_item("User Updates", badge_value = 24)))
 
-                        jumbotron("Hello shinyLP!", "Dock Several Applications on a page",
+
+                        ),
+
+               tabPanel("Home Page 3", icon = icon("calendar"),
+
+                        jumbotron("Hello shinyLP!", "Dock Several Applications on a page as a portal",
                                   button = FALSE),
+                        hr(),
                         fluidRow(
-                          column(6, thumbnail_label(image = 'Rlogo.png', label = 'Application 1', content = 'here we go again',
-                                                    button_link = 'http://getbootstrap.com/', button_label = 'Click me'),
-                                 thumbnail_label(image = 'Rlogo.png', label = 'Application 2', content = 'here we go again',
-                                                 button_link = 'http://getbootstrap.com/', button_label = 'Launch Application'),
-                                 thumbnail_label(image = 'Rlogo.png', label = 'Application 3', content = 'here we go again',
-                                                 button_link = 'http://getbootstrap.com/', button_label = 'Go to App')),
-                          column(6, thumbnail_label(image = 'Rlogo.png', label = 'Application 4', content = 'here we go again',
-                                                    button_link = 'http://getbootstrap.com/', button_label = 'Enter App'),
-                                 thumbnail_label(image = 'Rlogo.png', label = 'Application 5', content = 'here we go again',
-                                                 button_link = 'http://getbootstrap.com/', button_label = 'To App'),
-                                 thumbnail_label(image = 'Rlogo.png', label = 'Application 6', content = 'here we go again',
-                                                 button_link = 'http://getbootstrap.com/', button_label = 'Launch Shiny App'))
+                          column(4, thumbnail_label(image = 'Rlogo.png', label = 'Application 1',
+                                      content = 'Havana brown cornish rex bombay but bombay,
+                                              but havana brown devonshire rex and devonshire rex.
+                                              Tomcat egyptian mau. Cornish rex sphynx sphynx yet
+                                              cougar and panther. Panther siberian. Lynx munchkin
+                                              american shorthair. Norwegian forest. ',
+                                      button_link = 'http://getbootstrap.com/', button_label = 'Click me')
+                                 ),
+                          column(4, thumbnail_label(image = 'Rlogo.png', label = 'Application 2',
+                                                    content = 'Havana brown cornish rex bombay but bombay,
+                                                    but havana brown devonshire rex and devonshire rex.
+                                                    Tomcat egyptian mau. Cornish rex sphynx sphynx yet
+                                                    cougar and panther. Panther siberian. Lynx munchkin
+                                                    american shorthair. Norwegian forest. ',
+                                                    button_link = 'http://getbootstrap.com/', button_label = 'Click me')),
+                          column(4, thumbnail_label(image = 'Rlogo.png', label = 'Application 3',
+                                                    content = 'Havana brown cornish rex bombay but bombay,
+                                                    but havana brown devonshire rex and devonshire rex.
+                                                    Tomcat egyptian mau. Cornish rex sphynx sphynx yet
+                                                    cougar and panther. Panther siberian. Lynx munchkin
+                                                    american shorthair. Norwegian forest. ',
+                                                    button_link = 'http://getbootstrap.com/', button_label = 'Click me'))
+
                         )))
 
 )) # end of shiny

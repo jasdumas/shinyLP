@@ -14,7 +14,7 @@
 #' @export
 thumbnail_label <- function(image, label, content, button_link, button_label ){
   HTML(paste0("<div class='row'>
-       <div class='col-sm-6 col-md-4'>
+       <div class='col-sm-14 col-md-12'>
        <div class='thumbnail'>
        <img src='", image ,"' alt='...'>
        <div class='caption'>
