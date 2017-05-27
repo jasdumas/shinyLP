@@ -30,4 +30,3 @@ Add a custom thumbnail with a label and button
 \seealso{
 \href{http://getbootstrap.com/components/#thumbnails-custom-content}{Thumbnails}
 }
-

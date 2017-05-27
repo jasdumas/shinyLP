@@ -27,4 +27,3 @@ Add a Jumbotron to showcase key content
 \seealso{
 \href{http://getbootstrap.com/components/#jumbotron}{Jumbotron}
 }
-

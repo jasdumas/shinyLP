@@ -26,4 +26,3 @@ wells(content = "Look, I'm a well!", size = "large")
 \seealso{
 \href{http://getbootstrap.com/components/#wells}{Wells}
 }
-

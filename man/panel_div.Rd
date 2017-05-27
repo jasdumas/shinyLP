@@ -28,4 +28,3 @@ content = "How to use the app")
 \seealso{
 \href{http://getbootstrap.com/components/#panels-heading}{Bootstrap Panels}
 }
-

@@ -28,4 +28,3 @@ url_link = "https://www.youtube.com/embed/0fKg7e37bQE")
 \seealso{
 \href{http://getbootstrap.com/components/#responsive-embed}{Responsive Embed}
 }
-

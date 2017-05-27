@@ -28,4 +28,3 @@ list_item("Howdy Title", badge_value = 27)
 \seealso{
 \href{http://getbootstrap.com/components/#list-group}{List Group}
 }
-

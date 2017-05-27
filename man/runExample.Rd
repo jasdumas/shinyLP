@@ -17,4 +17,3 @@ Run The Example Shiny App
 \examples{
 \dontrun{ runExample() }
 }
-
