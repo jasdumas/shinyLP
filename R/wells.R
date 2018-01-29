@@ -12,11 +12,11 @@
 wells <- function(content, size = "default") {
 
   if(size == "default"){
-    HTML(paste0("<div class='well'>", content, "</div>"))
+    div(class = "well", content)
   } else if(size == "large") {
-    HTML(paste0("<div class='well well-lg'>", content, "</div>"))
+    div(class = "well well-lg", content)
   } else {
-    HTML(paste0("<div class='well well-sm'>", content, "</div>"))
+    div(class = "well well-sm", content)
   }
 
 }
