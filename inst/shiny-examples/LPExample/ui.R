@@ -100,4 +100,5 @@ shinyUI(
 
                         )))
 
-)) # end of shiny
+) # end of fluid page
+) # end of shiny

@@ -2,6 +2,7 @@
 
 * updating most of the functions to utlize the native `shiny::div()` instead of the `paste0()` to enable different content
 * adding unit tests
+* modify `runExample()` function to enable display.mode for easy access to the shiny template.
 
 
 # shinyLP 1.1.0
