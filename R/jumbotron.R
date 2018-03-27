@@ -6,9 +6,7 @@
 #' @param ... optional parameters for including a button label if needed
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
-#' @importFrom shiny h1
-#' @importFrom shiny a
-#' @importFrom shiny p
+#' @import shiny
 #' @seealso \href{http://getbootstrap.com/components/#jumbotron}{Jumbotron}
 #' @examples  jumbotron("Hi Shiny!", "text to show", buttonLabel = "Click Me")
 #' @export

@@ -7,10 +7,7 @@
 #' @param button_label a object of class character
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
-#' @importFrom shiny h3
-#' @importFrom shiny a
-#' @importFrom shiny img
-#' @importFrom shiny p
+#' @import shiny
 #' @seealso \href{http://getbootstrap.com/components/#thumbnails-custom-content}{Thumbnails}
 #' @examples  thumbnail_label(image = 'Rlogo.png', label = 'App 1', content = 'here we go again',
 #'  button_link = 'http://getbootstrap.com/', button_label = 'Click me')

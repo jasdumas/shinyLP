@@ -5,7 +5,7 @@
 #' @param url_link a object of class character, indicating content to display
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
-#' @importFrom shiny HTML
+#' @import shiny
 #' @seealso \href{http://getbootstrap.com/components/#responsive-embed}{Responsive Embed}
 #'
 #' @examples iframe(width = "560", height = "315",

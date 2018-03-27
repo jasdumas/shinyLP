@@ -6,8 +6,7 @@
 #' class numeric, named badge_value.
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
-#' @importFrom shiny span
-#' @importFrom shiny tags
+#' @import shiny
 #' @seealso \href{http://getbootstrap.com/components/#list-group}{List Group}
 #'
 #' @examples list_item("Howdy Title", badge_value = 27)

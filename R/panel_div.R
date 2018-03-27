@@ -5,9 +5,7 @@
 #' @param content a object of class character, indicating text content
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
-#' @importFrom shiny HTML
-#' @importFrom shiny div
-#' @importFrom shiny h3
+#' @import shiny
 #' @seealso \href{http://getbootstrap.com/components/#panels-heading}{Bootstrap Panels}
 #' @examples  panel_div(class_type = "primary", panel_title = "Directions",
 #' content = "How to use the app")

@@ -5,7 +5,7 @@
 #' and options include, default, small, and large.
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
-#' @importFrom shiny HTML
+#' @import shiny
 #' @seealso \href{http://getbootstrap.com/components/#wells}{Wells}
 #' @examples wells(content = "Look, I'm a well!", size = "large")
 #' @export
