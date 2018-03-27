@@ -5,14 +5,14 @@
 \title{Add a Single List Item Component
 A flexible method for displaying simple list elements.}
 \usage{
-list_item(content, badge = TRUE, ...)
+list_item(content, badge = TRUE, badge_value)
 }
 \arguments{
 \item{content}{a object of class character}
 
 \item{badge}{a object of class logical}
 
-\item{...}{if the badge object is true provide an arguement object of
+\item{badge_value}{if the badge object is true provide an arguement object of
 class numeric, named badge_value.}
 }
 \value{

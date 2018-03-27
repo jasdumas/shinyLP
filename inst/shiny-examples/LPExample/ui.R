@@ -63,8 +63,8 @@ shinyUI(
                         h1("Hello Visitors!", align = "center"),
                         hr(),
 
-                        list_group(c(list_item("Application Updates", badge_value = 27),
-                                     list_item("User Updates", badge_value = 24)))
+                        list_group(list_item("Application Updates", badge_value = 27),
+                                     list_item("User Updates", badge_value = 24))
 
 
                         ),

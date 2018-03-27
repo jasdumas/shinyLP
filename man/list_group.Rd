@@ -5,10 +5,10 @@
 \title{Add a Single List Group Component
 A flexible method for displaying simple list elements as a group.}
 \usage{
-list_group(...)
+list_group(list_items)
 }
 \arguments{
-\item{...}{a vector of content generated from the list_item function}
+\item{list_items}{a vector of content generated from the list_item function}
 }
 \value{
 a HTML object to be included in the ui section of a shiny app
