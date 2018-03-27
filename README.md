@@ -11,35 +11,7 @@ The goal of *shinyLP* is to provide functions that wrap HTML Bootstrap code to e
 
 This package is inspired by the [shinyBS package](https://github.com/ebailey78/shinyBS) which incorporates useful components from the [Bootstrap web framework](http://getbootstrap.com/) for use in Shiny. *shinyLP* extends the Bootstrap components that are used in the Shiny package by making it easier by not having to write additional HTML code.
 
-## Future package updates and ideas
-
-* more examples on demo shiny app
-* additional bootstrap components I'm interested in implementing:
-    * [Media Objects](http://getbootstrap.com/components/#media-default)
-    * [List Group](http://getbootstrap.com/components/#list-group) with [Badges](http://getbootstrap.com/components/#list-group-badges) - check out the latest release 1.1.0
-    * [Wells](http://getbootstrap.com/components/#wells) - check out the latest release 1.1.0
-
-## shinyLP Example
-
-This example features a informative layout calling attention to key features, directions, package status, security or licensing, package maintainer contact.
-
-* To run this example provided from the package:
-```r
-shinyLP::runExample()
-```
-
-![](example1.jpg)
-
-![](example3.jpg)
-
-___
-
-![](example2.jpg)
-
-___
-
-![](example4.jpg)
-
+[A talk was given about `shinyLP` at the Portland, Oregon R Users Group in 2017.](https://jasdumas.github.io/talks/PDX-R-user-group/pdx-r-user-group-slides.html#(1))
 
 ## How to install this package?
 
@@ -60,9 +32,33 @@ library(shinyLP)
 
 ## How to use this package?
 
-The components of the package are functions that wrap HTML Bootstrap code for use in shiny apps. Include the functions in the UI section of your app to provide additional features which normally requires including HTML code.
+The components of the package are functions that wrap HTML Bootstrap code for use in shiny apps. Include the functions in the **UI** section of your app to provide additional features which normally requires including HTML code.
 
 This project is released with a [Contributor Code of Conduct](https://github.com/jasdumas/shinyLP/blob/master/CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+
+## `shinyLP` Example app
+
+To run this example shiny app provided with the package:
+
+```r
+shinyLP::runExample()
+```
+
+The app also runs with `display.mode="showcase"` in the browser to facilitate re-using the template.
+
+![](example1.jpg)
+
+![](example3.jpg)
+
+___
+
+![](example2.jpg)
+
+___
+
+![](example4.jpg)
+
 
 ## Contact
 

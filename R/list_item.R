@@ -6,7 +6,8 @@
 #' class numeric, named badge_value.
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
-#' @importFrom shiny HTML
+#' @importFrom shiny span
+#' @importFrom shiny tags
 #' @seealso \href{http://getbootstrap.com/components/#list-group}{List Group}
 #'
 #' @examples list_item("Howdy Title", badge_value = 27)
@@ -16,11 +17,10 @@ list_item <- function(content, badge = TRUE, ...){
   badge_value = c(...)
 
   if(badge) {
-   HTML(paste0(" <li class='list-group-item'>
-              <span class='badge'>", badge_value, "</span>", content, " </li>"
-      ))
+    tags$li(class = "list-group-item", span(class = "badge", badge_value), content)
+
   } else {
-    HTML(paste0("<li class='list-group-item'>", content, "</li>"))
+    tags$li(class = "list-group-item", content)
   }
 
 }

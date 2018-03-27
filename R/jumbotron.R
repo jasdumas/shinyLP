@@ -17,21 +17,11 @@ jumbotron <- function(header , content, button = TRUE,  ...){
   button_label = c(...)
 
   if (button){
-    # HTML(paste0("<div class='jumbotron'>
-    #             <h1> ", header, "</h1>
-    #             <p>", content ,"</p>",
-    #             "<p><a class='btn btn-primary btn-lg' button id='tabBut'>", button_label, "</a></p>
-    #             </div>") )
-
     div(class = "jumbotron",
         h1(header), p(content), p(a(class = "btn btn-primary btn-lg button", id='tabBut', button_label)))
 
   } else {
-    # HTML(paste0("<div class='jumbotron'>
-    #             <h1> ", header, "</h1>
-    #             <p>", content ,"</p>",
-    #             "</div>") )
-    div(class = "jumbotron", h1(header), p(content))
+   div(class = "jumbotron", h1(header), p(content))
 
   }
 
