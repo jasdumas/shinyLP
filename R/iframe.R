@@ -13,9 +13,6 @@
 #' @export
 iframe <- function(width, height, url_link) {
 
-  HTML(paste0("<iframe width='", width,
-              "' height='", height,
-              "' src='", url_link,
-              "' allowfullscreen></iframe>"))
+  tags$iframe(width = width, height = height, src = url_link)
 
 }

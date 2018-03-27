@@ -42,6 +42,7 @@ This project is released with a [Contributor Code of Conduct](https://github.com
 To run this example shiny app provided with the package:
 
 ```r
+install.packages(c("shinyBS", "shinythemes"))
 shinyLP::runExample()
 ```
 

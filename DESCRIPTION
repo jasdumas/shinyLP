@@ -12,9 +12,7 @@ URL: https://github.com/jasdumas/shinyLP
 Depends:
     R (>= 3.1.2)
 Imports:
-    shinyBS,
-    shiny, 
-    shinythemes
+    shiny
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
