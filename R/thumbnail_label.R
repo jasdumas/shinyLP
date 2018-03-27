@@ -7,7 +7,7 @@
 #' @param button_label a object of class character
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
-#' @importFrom shiny HTML
+#' @importFrom shiny h3
 #' @importFrom shiny a
 #' @importFrom shiny img
 #' @importFrom shiny p
