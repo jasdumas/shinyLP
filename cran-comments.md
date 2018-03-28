@@ -11,6 +11,17 @@
 
 R CMD check succeeded
 
+### Additional Comments:
+* Error: "Result: NOTE 
+    Namespaces in Imports field not imported from:
+     ‘shinyBS’ ‘shinythemes’
+     All declared Imports should be used. " - RESOLUTION:  made the changes to the DESCRIPTION and NAMESPACE file to remove the imports that are not required (shinyBS and shinythemes).
+* Error: "checking top-level files ... WARNING
+Conversion of 'README.md' failed:
+pandoc.exe: Could not fetch example1.jpg
+example1.jpg: openBinaryFile: does not exist (No such file or directory)" - RESOLUTION: I have properly linked the images for the readme.md to a static url link so the file builds.
+
+
 
 # shinyLP 1.1.0
 
