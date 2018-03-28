@@ -4,6 +4,8 @@
 ^cran-comments\.md$
 ^example\.jpg$
 ^\.travis\.yml$
+^\.Rhistory$
+^\.RData$
 
 ^example2\.jpg$
 ^example1\.jpg$

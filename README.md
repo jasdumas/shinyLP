@@ -48,17 +48,17 @@ shinyLP::runExample()
 
 The app also runs with `display.mode="showcase"` in the browser to facilitate re-using the template.
 
-![](example1.jpg)
+![](https://raw.githubusercontent.com/jasdumas/shinyLP/master/example1.jpg)
 
-![](example3.jpg)
-
-___
-
-![](example2.jpg)
+![](https://raw.githubusercontent.com/jasdumas/shinyLP/master/example3.jpg)
 
 ___
 
-![](example4.jpg)
+![](https://raw.githubusercontent.com/jasdumas/shinyLP/master/example2.jpg)
+
+___
+
+![](https://raw.githubusercontent.com/jasdumas/shinyLP/master/example4.jpg)
 
 
 ## Contact
