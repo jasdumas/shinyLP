@@ -1,3 +1,8 @@
+# shinyLP 1.1.2
+
+* fixes for `runExample()` from combining multiple list items to the group [#8](https://github.com/jasdumas/shinyLP/issues/8)
+* fixes for `thumbnail_label()` from [@jonmcalder, #9](https://github.com/jasdumas/shinyLP/pull/9) :pray:
+
 # shinyLP 1.1.1
 
 * updating most of the functions to utlize the native `shiny::div()` instead of the `paste0()` to enable different content
