@@ -13,11 +13,11 @@
 #'  button_link = 'http://getbootstrap.com/', button_label = 'Click me')
 #' @export
 thumbnail_label <- function(image, label, content, button_link, button_label ){
-  div(class="row",
+  div(class = "row",
       div(class = "col-sm-14 col-md-12",
           div(class = "thumbnail",
               img(src = image, alt = "...",
-                  div(class = "caption", h3(label), p(content), p(a(button_link, class = 'btn btn-primary', role='button', label = button_label)))))))
+                  div(class = "caption", h3(label), p(content), p(a(href = button_link, class = 'btn btn-primary', role = 'button', button_label)))))))
 
 
 }
