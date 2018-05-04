@@ -1,6 +1,7 @@
 ![](https://travis-ci.org/jasdumas/shinyLP.svg?branch=master)
-[![](http://cranlogs.r-pkg.org/badges/shinyLP)](http://cran.rstudio.com/web/packages/shinyLP/index.html)
-[![](http://cranlogs.r-pkg.org/badges/grand-total/shinyLP)](http://cran.rstudio.com/web/packages/shinyLP/index.html)
+[![Rdoc](http://www.rdocumentation.org/badges/version/shinyLP)](http://www.rdocumentation.org/packages/shinyLP)
+[![](http://cranlogs.r-pkg.org/badges/shinyLP)](https://cran.r-project.org/package=shinyLP)
+[![](http://cranlogs.r-pkg.org/badges/grand-total/shinyLP)](https://cran.r-project.org/package=shinyLP)
 
 # shinyLP
 
@@ -10,26 +11,7 @@ The goal of *shinyLP* is to provide functions that wrap HTML Bootstrap code to e
 
 This package is inspired by the [shinyBS package](https://github.com/ebailey78/shinyBS) which incorporates useful components from the [Bootstrap web framework](http://getbootstrap.com/) for use in Shiny. *shinyLP* extends the Bootstrap components that are used in the Shiny package by making it easier by not having to write additional HTML code.
 
-## Future package updates and ideas
-
-* more examples on demo shiny app
-* additional bootstrap components I'm interested in implementing:
-    * [Media Objects](http://getbootstrap.com/components/#media-default)
-    * [List Group](http://getbootstrap.com/components/#list-group)
-    * [Badges](http://getbootstrap.com/components/#list-group-badges)
-    * [Wells](http://getbootstrap.com/components/#wells)
-
-## shinyLP Example
-
-This example features a informative layout calling attention to key features, directions, package status, security or licensing, package maintainer contact.
-
-* To run this example provided from the package:
-```r
-shinyLP::runExample()
-```
-
-![](example.jpg)
-
+[A talk was given about `shinyLP` at the Portland, Oregon R Users Group in 2017.](https://jasdumas.github.io/talks/PDX-R-user-group/pdx-r-user-group-slides.html#(1))
 
 ## How to install this package?
 
@@ -50,9 +32,34 @@ library(shinyLP)
 
 ## How to use this package?
 
-The components of the package are functions that wrap HTML Bootstrap code for use in shiny apps. Include the functions in the UI section of your app to provide additional features which normally requires including HTML code.
+The components of the package are functions that wrap HTML Bootstrap code for use in shiny apps. Include the functions in the **UI** section of your app to provide additional features which normally requires including HTML code.
 
 This project is released with a [Contributor Code of Conduct](https://github.com/jasdumas/shinyLP/blob/master/CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+
+## `shinyLP` Example app
+
+To run this example shiny app provided with the package:
+
+```r
+install.packages(c("shinyBS", "shinythemes"))
+shinyLP::runExample()
+```
+
+The app also runs with `display.mode="showcase"` in the browser to facilitate re-using the template.
+
+![](https://raw.githubusercontent.com/jasdumas/shinyLP/master/example1.jpg)
+
+![](https://raw.githubusercontent.com/jasdumas/shinyLP/master/example3.jpg)
+
+___
+
+![](https://raw.githubusercontent.com/jasdumas/shinyLP/master/example2.jpg)
+
+___
+
+![](https://raw.githubusercontent.com/jasdumas/shinyLP/master/example4.jpg)
+
 
 ## Contact
 
