@@ -1,0 +1,8 @@
+title: shinyLP
+description: "A R package for Bootstrap Components to make Landing Home Pages for Shiny "
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
