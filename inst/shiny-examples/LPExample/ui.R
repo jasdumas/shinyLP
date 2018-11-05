@@ -54,7 +54,7 @@ shinyUI(
 
                         )),
                tabPanel("Home Page 2", icon = icon("cog"),
-                        wells(content = "Imporant Info can go up here before a
+                        wells(content = "Important Info can go up here before a
                               user starts exploring the application and its features",
                               size = "default"),
                         h1("Hello Visitors!", align = "center"),
