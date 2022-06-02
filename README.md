@@ -63,4 +63,4 @@ ___
 
 ## Contact
 
-Package Author: Jasmine Dumas [@jasdumas](https://twitter.com/jasdumas) | [jasdumas.github.io](http://jasdumas.github.io/) 
+Package Author: Jasmine Daly [@jasdumas](https://twitter.com/jasdumas) | [jasdumas.github.io](http://jasdumas.github.io/) 
