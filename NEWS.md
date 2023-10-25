@@ -1,3 +1,7 @@
+# shinyLP 1.1.3
+
+* update the author and maintainer last name
+
 # shinyLP 1.1.2
 
 * fixes for `runExample()` from combining multiple list items to the group [#8](https://github.com/jasdumas/shinyLP/issues/8)

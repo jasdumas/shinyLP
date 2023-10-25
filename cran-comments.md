@@ -1,3 +1,15 @@
+# shinyLP 1.1.3
+
+* update the author and maintainer last name
+
+## R CMD check results 
+Duration: 43.8s
+
+0 errors ✔ | 0 warnings ✔ | 0 notes ✔
+
+R CMD check succeeded
+
+
 # shinyLP 1.1.2
 
 ## Test environments
