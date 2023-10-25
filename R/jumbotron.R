@@ -7,7 +7,7 @@
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
 #' @import shiny
-#' @seealso \href{http://getbootstrap.com/components/#jumbotron}{Jumbotron}
+#' @seealso \href{https://getbootstrap.com/components/#jumbotron}{Jumbotron}
 #' @examples  jumbotron("Hi Shiny!", "text to show", buttonLabel = "Click Me")
 #' @export
 jumbotron <- function(header , content, button = TRUE,  ...){

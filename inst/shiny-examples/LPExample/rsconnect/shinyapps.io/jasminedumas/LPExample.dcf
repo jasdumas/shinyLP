@@ -1,0 +1,12 @@
+name: LPExample
+title: LPExample
+username:
+account: jasminedumas
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 330347
+bundleId: 1339453
+url: https://jasminedumas.shinyapps.io/LPExample/
+when: 1524689547.07486
+asMultiple: FALSE
+asStatic: FALSE

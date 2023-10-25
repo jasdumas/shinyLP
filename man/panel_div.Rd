@@ -26,5 +26,5 @@ Panel sections can be grouped by color or context to structure the landing page.
 content = "How to use the app")
 }
 \seealso{
-\href{http://getbootstrap.com/components/#panels-heading}{Bootstrap Panels}
+\href{https://getbootstrap.com/components/#panels-heading}{Bootstrap Panels}
 }

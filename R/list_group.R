@@ -4,7 +4,7 @@
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
 #' @import shiny
-#' @seealso \href{http://getbootstrap.com/components/#list-group}{List Group}
+#' @seealso \href{https://getbootstrap.com/components/#list-group}{List Group}
 #'
 #' @examples list_group(list_item("Howdy Title", badge_value = 27))
 #' @export

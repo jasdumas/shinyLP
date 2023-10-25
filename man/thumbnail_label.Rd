@@ -28,5 +28,5 @@ Add a custom thumbnail with a label and button
  button_link = 'http://getbootstrap.com/', button_label = 'Click me')
 }
 \seealso{
-\href{http://getbootstrap.com/components/#thumbnails-custom-content}{Thumbnails}
+\href{https://getbootstrap.com/components/#thumbnails-custom-content}{Thumbnails}
 }

@@ -25,5 +25,5 @@ Add a Jumbotron to showcase key content
  jumbotron("Hi Shiny!", "text to show", buttonLabel = "Click Me")
 }
 \seealso{
-\href{http://getbootstrap.com/components/#jumbotron}{Jumbotron}
+\href{https://getbootstrap.com/components/#jumbotron}{Jumbotron}
 }

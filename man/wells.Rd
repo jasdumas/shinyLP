@@ -24,5 +24,5 @@ Use the well as a simple effect on an element to give it an inset effect.
 wells(content = "Look, I'm a well!", size = "large")
 }
 \seealso{
-\href{http://getbootstrap.com/components/#wells}{Wells}
+\href{https://getbootstrap.com/components/#wells}{Wells}
 }

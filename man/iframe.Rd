@@ -26,5 +26,5 @@ iframe(width = "560", height = "315",
 url_link = "https://www.youtube.com/embed/0fKg7e37bQE")
 }
 \seealso{
-\href{http://getbootstrap.com/components/#responsive-embed}{Responsive Embed}
+\href{https://getbootstrap.com/components/#responsive-embed}{Responsive Embed}
 }

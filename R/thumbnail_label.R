@@ -8,7 +8,7 @@
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
 #' @import shiny
-#' @seealso \href{http://getbootstrap.com/components/#thumbnails-custom-content}{Thumbnails}
+#' @seealso \href{https://getbootstrap.com/components/#thumbnails-custom-content}{Thumbnails}
 #' @examples  thumbnail_label(image = 'Rlogo.png', label = 'App 1', content = 'here we go again',
 #'  button_link = 'http://getbootstrap.com/', button_label = 'Click me')
 #' @export

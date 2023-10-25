@@ -1,5 +1,5 @@
 ![](https://travis-ci.org/jasdumas/shinyLP.svg?branch=master)
-[![Rdoc](http://www.rdocumentation.org/badges/version/shinyLP)](http://www.rdocumentation.org/packages/shinyLP)
+[![Rdoc](https://www.rdocumentation.org/packages/shinyLP)](https://www.rdocumentation.org/packages/shinyLP)
 [![](http://cranlogs.r-pkg.org/badges/shinyLP)](https://cran.r-project.org/package=shinyLP)
 [![](http://cranlogs.r-pkg.org/badges/grand-total/shinyLP)](https://cran.r-project.org/package=shinyLP)
 
@@ -7,11 +7,11 @@
 
 ### Bootstrap Landing Home Pages for Shiny
 
-The goal of *shinyLP* is to provide functions that wrap HTML Bootstrap code to enable the design and layout of informative landing home pages for [Shiny](http://shiny.rstudio.com/) applications. A [Landing page](https://en.wikipedia.org/wiki/Landing_page) is the first page of a web app or website that a user interacts with to learn the purpose, usage and status of the tool. The user experience and interface are important features to consider when developing Shiny applications to direct, especially non-technical users how to use the application.
+The goal of *shinyLP* is to provide functions that wrap HTML Bootstrap code to enable the design and layout of informative landing home pages for [Shiny](https://shiny.posit.co/) applications. A [Landing page](https://en.wikipedia.org/wiki/Landing_page) is the first page of a web app or website that a user interacts with to learn the purpose, usage and status of the tool. The user experience and interface are important features to consider when developing Shiny applications to direct, especially non-technical users how to use the application.
 
-This package is inspired by the [shinyBS package](https://github.com/ebailey78/shinyBS) which incorporates useful components from the [Bootstrap web framework](http://getbootstrap.com/) for use in Shiny. *shinyLP* extends the Bootstrap components that are used in the Shiny package by making it easier by not having to write additional HTML code.
+This package is inspired by the [shinyBS package](https://github.com/ebailey78/shinyBS) which incorporates useful components from the [Bootstrap web framework](https://getbootstrap.com/) for use in Shiny. *shinyLP* extends the Bootstrap components that are used in the Shiny package by making it easier by not having to write additional HTML code.
 
-[A talk was given about `shinyLP` at the Portland, Oregon R Users Group in 2017.](https://jasdumas.github.io/talks/PDX-R-user-group/pdx-r-user-group-slides.html#(1))
+[A talk was given about `shinyLP` at the Portland, Oregon R Users Group in 2017.](https://jasminedaly.com/talks/PDX-R-user-group/pdx-r-user-group-slides.html#(1))
 
 ## How to install this package?
 

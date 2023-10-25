@@ -3,7 +3,6 @@
 \docType{package}
 \name{shinyLP}
 \alias{shinyLP}
-\alias{shinyLP-package}
 \title{A R package To Add Bootstrap Components to Shiny Applications
 for Landing Home Pages.}
 \description{

@@ -6,7 +6,7 @@
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
 #' @import shiny
-#' @seealso \href{http://getbootstrap.com/components/#wells}{Wells}
+#' @seealso \href{https://getbootstrap.com/components/#wells}{Wells}
 #' @examples wells(content = "Look, I'm a well!", size = "large")
 #' @export
 wells <- function(content, size = "default") {
