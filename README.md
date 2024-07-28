@@ -1,4 +1,3 @@
-![](https://travis-ci.org/jasdumas/shinyLP.svg?branch=master)
 ![](https://cranlogs.r-pkg.org/badges/shinyLP)
 ![](https://cranlogs.r-pkg.org/badges/grand-total/shinyLP)
 
