@@ -1,7 +1,10 @@
-![](https://cranlogs.r-pkg.org/badges/shinyLP)
-![](https://cranlogs.r-pkg.org/badges/grand-total/shinyLP)
+# shinyLP <img src="hexsticker.png" align="right" width="360" />
 
-# shinyLP
+<!-- badges: start -->
+  [![CRAN status](https://www.r-pkg.org/badges/version/shinyLP)](https://CRAN.R-project.org/package=shinyLP)
+  [![Downloads](https://cranlogs.r-pkg.org/badges/shinyLP)](https://cran.r-project.org/package=shinyLP)
+  [![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/shinyLP)](https://cran.r-project.org/package=shinyLP)
+<!-- badges: end -->
 
 ### Bootstrap Landing Home Pages for Shiny
 
