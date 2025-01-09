@@ -8,7 +8,7 @@ Description: Provides functions that wrap HTML Bootstrap
     components code to enable the design and layout of informative landing home
     pages for Shiny applications. This can lead to a better user experience for
     the users and writing less HTML for the developer.
-URL: https://github.com/jasdumas/shinyLP
+URL: https://github.com/jasdumas/shinyLP, http://jasminedaly.com/shinyLP/
 Depends:
     R (>= 3.1.2)
 Imports:
@@ -16,5 +16,5 @@ Imports:
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Suggests: testthat
