@@ -1,4 +1,4 @@
-# shinyLP <img src="hexsticker.png" align="right" width="360" />
+# shinyLP
 
 <!-- badges: start -->
   [![CRAN status](https://www.r-pkg.org/badges/version/shinyLP)](https://CRAN.R-project.org/package=shinyLP)
