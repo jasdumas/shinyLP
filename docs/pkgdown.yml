@@ -1,0 +1,8 @@
+pandoc: '3.2'
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles: {}
+last_built: 2025-03-04T04:17Z
+urls:
+  reference: http://jasminedaly.com/shinyLP/reference
+  article: http://jasminedaly.com/shinyLP/articles

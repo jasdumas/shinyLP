@@ -1,4 +1,6 @@
-# shinyLP
+# shinyLP 
+<img src="https://raw.githubusercontent.com/jasdumas/shinyLP/67b98b14571f901a66eba73fc4772f0245dad370/hexsticker.png" align="right" alt="" width="200" />
+
 
 <!-- badges: start -->
   [![CRAN status](https://www.r-pkg.org/badges/version/shinyLP)](https://CRAN.R-project.org/package=shinyLP)

@@ -13,3 +13,7 @@
 ^example4\.jpg$
 ^example\.jpg$
 ^CRAN-SUBMISSION$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
