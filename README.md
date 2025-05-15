@@ -1,7 +1,7 @@
 # shinyLP 
-<!----
+
 <img src="https://raw.githubusercontent.com/jasdumas/shinyLP/refs/heads/master/man/figures/shinylp-hexsticker-transparent.png" align="right" alt="" width="200" />
-<!-----
+
 
 <!-- badges: start -->
   [![CRAN status](https://www.r-pkg.org/badges/version/shinyLP)](https://CRAN.R-project.org/package=shinyLP)
