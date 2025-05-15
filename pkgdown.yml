@@ -2,7 +2,7 @@ pandoc: 3.1.11
 pkgdown: 2.1.2
 pkgdown_sha: ~
 articles: {}
-last_built: 2025-05-15T19:39Z
+last_built: 2025-05-15T19:48Z
 urls:
   reference: http://jasminedaly.com/shinyLP/reference
   article: http://jasminedaly.com/shinyLP/articles
