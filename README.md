@@ -1,5 +1,5 @@
 # shinyLP 
-<img src="https://raw.githubusercontent.com/jasdumas/shinyLP/67b98b14571f901a66eba73fc4772f0245dad370/hexsticker.png" align="right" alt="" width="200" />
+<img src="https://raw.githubusercontent.com/jasdumas/shinyLP/refs/heads/master/man/figures/shinylp-logo.png" align="right" alt="" width="200" />
 
 
 <!-- badges: start -->
